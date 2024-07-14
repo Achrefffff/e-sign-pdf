@@ -1,4 +1,4 @@
-E-sign
+E-sign  
 E-sign est une application web qui permet aux utilisateurs de télécharger un PDF, d'y dessiner leur signature, et de sauvegarder le PDF signé. 
 Cette application est particulièrement utile pour signer électroniquement des documents de manière sécurisée et efficace.
 
@@ -43,7 +43,7 @@ e-sign/
 -app.js : Le fichier JavaScript contenant les fonctionnalités pour gérer les téléchargements de PDF, le dessin des signatures et la sauvegarde du PDF signé.  
 -README.md : Ce fichier que vous êtes en train de lire, fournissant des informations sur l'application.  
 
-Dépendances
+Dépendances  
 *pdf-lib - Une bibliothèque JavaScript pour créer et modifier des documents PDF.  
 *pdf.js - Une bibliothèque Portable Document Format (PDF) utilisée pour rendre les PDFs dans un élément <canvas>.  
   
