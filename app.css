@@ -1,0 +1,114 @@
+:root {
+    --primary-color: #4CAF50; /* Green */
+    --secondary-color: #f0f0f0; /* Light Gray */
+    --text-color: #333; /* Dark Gray */
+    --border-color: #ddd; /* Border Gray */
+    --button-hover-color: #45a049; /* Darker Green */
+    --danger-color: #f44336; /* Red */
+    --font-family: 'Nunito', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    padding: 2rem;
+    margin: 0;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+.signature-pad-form {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: var(--white-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    font-size: 1.75rem;
+}
+
+.clear-button {
+    color: var(--danger-color);
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.clear-button:hover {
+    color: darkred;
+}
+
+.submit-button {
+    width: 100%;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 10px 20px;
+    color: var(--white-color);
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: var(--button-hover-color);
+}
+
+.canvas-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#pdf-canvas {
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    display: none; /* Hide until a PDF is uploaded */
+}
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.tools label {
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+
+.tools input[type="number"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button, a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media(pointer: coarse) {
+    body {
+        overflow: hidden;
+    }
+}
+.ad-container {
+    margin-top: 20px;
+    text-align: center;
+}
