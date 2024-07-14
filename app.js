@@ -50,7 +50,7 @@ const renderPage = async (num) => {
     };
   }
 
-  applyDrawingSettings(); // Apply drawing settings after rendering the page
+  applyDrawingSettings(); 
 };
 
 // Dessiner la signature sur le PDF
@@ -126,7 +126,7 @@ form.addEventListener("submit", async (e) => {
     height: signatureHeight,
   });
 
-  // Sauvegarder et télécharger le PDF modifié
+  // Sauvegarde et téléchargement du PDF modifié
   const modifiedPdfBytes = await pdfLibDoc.save();
   download(modifiedPdfBytes, "signed.pdf", "application/pdf");
   clearPad();
