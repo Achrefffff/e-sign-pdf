@@ -17,7 +17,8 @@ Un navigateur web supportant HTML5, JavaScript et le canvas.
 Installation
 Clonez le dépôt :
 
-git clone https://github.com/votre-nom-utilisateur/e-sign.git](https://github.com/Achrefffff/e-sign-pdf
+git clone https://github.com/Achrefffff/e-sign-pdf
+
 Naviguez dans le répertoire du projet :
 cd e-sign
 
