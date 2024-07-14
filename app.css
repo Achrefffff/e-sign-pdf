@@ -1,10 +1,10 @@
 :root {
-    --primary-color: #4CAF50; /* Green */
-    --secondary-color: #f0f0f0; /* Light Gray */
-    --text-color: #333; /* Dark Gray */
-    --border-color: #ddd; /* Border Gray */
-    --button-hover-color: #45a049; /* Darker Green */
-    --danger-color: #f44336; /* Red */
+    --primary-color: #4CAF50;
+    --secondary-color: #f0f0f0; 
+    --text-color: #333; 
+    --border-color: #ddd; 
+    --button-hover-color: #45a049; 
+    --danger-color: #f44336; 
     --font-family: 'Nunito', sans-serif;
 }
 
@@ -74,8 +74,7 @@ h1 {
 #pdf-canvas {
     border: 1px solid var(--border-color);
     border-radius: 5px;
-    display: none; /* Hide until a PDF is uploaded */
-}
+    display: none; 
 
 .tools {
     display: flex;
