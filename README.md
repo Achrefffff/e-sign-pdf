@@ -1,53 +1,51 @@
 E-sign
-E-sign is a web application that allows users to upload a PDF, draw their signature on it, and save the signed PDF. This application is particularly useful for electronically signing documents in a secure and efficient manner.
+E-sign est une application web qui permet aux utilisateurs de télécharger un PDF, d'y dessiner leur signature, et de sauvegarder le PDF signé. 
+Cette application est particulièrement utile pour signer électroniquement des documents de manière sécurisée et efficace.
 
-Features
-PDF Upload: Users can upload a PDF document to the application.
-Signature Drawing: Users can draw their signature on the PDF using a canvas.
-Color and Thickness Adjustment: Users can select the color and thickness of the signature.
-Clear Signature: Option to clear the signature and start over.
-Download Signed PDF: Users can download the signed PDF document.
-Responsive Design: The application is designed to be responsive and works well on various devices.
-Getting Started
-Prerequisites
-A web browser that supports HTML5, JavaScript, and canvas.
+Fonctionnalités
+
+*Téléchargement de PDF : Les utilisateurs peuvent télécharger un document PDF dans l'application.
+*Dessin de signature : Les utilisateurs peuvent dessiner leur signature sur le PDF à l'aide d'un canvas.
+*Ajustement de la couleur et de l'épaisseur : Les utilisateurs peuvent sélectionner la couleur et l'épaisseur de la signature.
+*Effacement de la signature : Option pour effacer la signature et recommencer.
+*Téléchargement du PDF signé : Les utilisateurs peuvent télécharger le document PDF signé.
+*Design responsive : L'application est conçue pour être responsive et fonctionne bien sur divers appareils.
+
+Prérequis
+Un navigateur web supportant HTML5, JavaScript et le canvas.
+
 Installation
-Clone the repository:
+Clonez le dépôt :
 
-
-Navigate to the project directory:
-
+git clone https://github.com/votre-nom-utilisateur/e-sign.git](https://github.com/Achrefffff/e-sign-pdf
+Naviguez dans le répertoire du projet :
 cd e-sign
-Usage
-Open the index.html file in your web browser.
-Upload a PDF document using the file input.
-Adjust the color and thickness of the signature as desired.
-Draw your signature on the PDF canvas.
-Click the "Soumettre" button to save and download the signed PDF.
-Project Structure
-r
+
+Utilisation
+
+*Ouvrez le fichier index.html dans votre navigateur web.
+*Téléchargez un document PDF en utilisant le champ de téléchargement de fichier.
+*Ajustez la couleur et l'épaisseur de la signature selon vos préférences.
+*Dessinez votre signature sur le canvas du PDF.
+*Cliquez sur le bouton "Soumettre" pour sauvegarder et télécharger le PDF signé.
+
+Structure du Projet
+
 e-sign/
 ├── index.html
 ├── app.css
 ├── app.js
 ├── README.md
-index.html: The main HTML file that contains the structure of the web application.
-app.css: The CSS file that contains styles for the web application.
-app.js: The JavaScript file that contains the functionality for handling PDF uploads, drawing signatures, and saving the signed PDF.
-README.md: The file you are currently reading, which provides information about the application.
-Dependencies
-pdf-lib - A JavaScript library to create and modify PDF documents.
-pdf.js - A Portable Document Format (PDF) library that is used to render PDFs in a <canvas> element.
-Contributing
-Contributions are welcome! Please fork the repository and submit a pull request for any changes.
 
-Fork the repository.
-Create a new branch: git checkout -b feature-branch.
-Make your changes and commit them: git commit -m 'Add new feature'.
-Push to the branch: git push origin feature-branch.
-Submit a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+-index.html : Le fichier HTML principal contenant la structure de l'application web.
+-app.css : Le fichier CSS contenant les styles de l'application web.
+-app.js : Le fichier JavaScript contenant les fonctionnalités pour gérer les téléchargements de PDF, le dessin des signatures et la sauvegarde du PDF signé.
+-README.md : Ce fichier que vous êtes en train de lire, fournissant des informations sur l'application.
 
-Acknowledgements
-Thanks to the developers of pdf-lib and pdf.js for their amazing libraries.
+Dépendances
+*pdf-lib - Une bibliothèque JavaScript pour créer et modifier des documents PDF.
+*pdf.js - Une bibliothèque Portable Document Format (PDF) utilisée pour rendre les PDFs dans un élément <canvas>.
+
+
+Remerciements
+Merci aux développeurs de pdf-lib et pdf.js pour leurs bibliothèques 
